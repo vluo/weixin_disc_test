@@ -1,0 +1,25 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+
+.radio{
+   display: inline-block;
+   padding:5rpx, 0
+}
+.radio-group, p{
+  font-size: 12px;
+}
+.next-btn{
+  font-size: 12px;
+  width: 30%;
+  margin-top: 15px;
+}
+p{
+  display: block;
+  padding: 10px;
+}

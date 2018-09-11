@@ -1,0 +1,15 @@
+<block wx:if="{{!done}}">
+<view class="container log-list">
+    <radio-group class="radio-group" bindchange="choose_answer">
+        <label class="radio" wx:for="{{question}}">
+            <radio value="{{index}}"/>{{item.question}}
+        </label>
+    </radio-group>
+    <button class="next-btn" bindtap="load_question">下一题</button>
+</view>
+</block>
+<block wx:else>
+    <p>选择次数：{{result.score.times}}, 总得分：{{result.score.score}}</p>
+    <p><text>{{result.desc}}</text></p>
+    <button class="next-btn" bindtap="re_do">重做</button>
+</block>

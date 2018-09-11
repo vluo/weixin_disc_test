@@ -1,0 +1,6 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <block wx:for="{{samples}}" wx:for-item="item">
+    <text class="log-item" data-url="{{item.url}}" bindtap="showSample">{{item.name}}</text>
+  </block>
+</view>

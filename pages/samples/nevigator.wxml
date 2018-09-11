@@ -1,0 +1,7 @@
+<!-- sample.wxml -->
+<view class="btn-area">
+    <navigator url="../samples/navigatorURL" data-title="navigator" hover-class="navigator-hover">跳转到新页面</navigator>
+    <navigator url="../samples/navigatorURL" data-title="redirect" open-type="redirect" hover-class="other-navigator-hover">在当前页打开</navigator>
+    <navigator url="../samples/navigatorURL" data-title="switchTab" open-type="switchTab" hover-class="other-navigator-hover">切换 Tab</navigator>
+</view>
+

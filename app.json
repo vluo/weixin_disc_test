@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/disc/disc",
+    "pages/logs/logs",
+    "pages/samples/index",
+    "pages/samples/scrollView",
+    "pages/samples/swiper",
+    "pages/samples/form",
+    "pages/samples/picker",
+    "pages/samples/pickerView",
+    "pages/samples/nevigator",
+    "pages/samples/navigatorURL"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "DISC性格测试",
+    "navigationBarTextStyle":"black"
+  }
+}
